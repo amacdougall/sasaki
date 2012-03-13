@@ -2,7 +2,7 @@ import os
 import json
 
 
-data = json.load(open("comic_website_generator.json"))
+data = json.load(open("comic_data.json"))
 
 header = data["header"]
 
