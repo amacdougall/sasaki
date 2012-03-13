@@ -1,0 +1,40 @@
+{
+  "header": "This is the COMIC PAGE!!!  Okay?!?!?",
+  "pages": [
+    {
+      "filename": "comic_index.html",
+      "page_title": "Title of Index",
+      "page_content": "This is the content of the INDEX. It's just a paragraph.",
+      "next_page": "comic_page1.html",
+      "previous_page": "comic_index.html"
+    },
+    {
+      "filename": "comic_page1.html",
+      "page_title": "Title of Page One",
+      "page_content": "This is the content of PAGE ONE. It's just a paragraph.",
+      "next_page": "comic_page2.html",
+      "previous_page": "comic_index.html"
+    },
+    {
+      "filename": "comic_page2.html",
+      "page_title": "Title of Page Two",
+      "page_content": "This is the content of PAGE TWO. It's just a paragraph.",
+      "next_page": "comic_page3.html",
+      "previous_page":"comic_page1.html"
+    },
+    {
+      "filename": "comic_page3.html",
+      "page_title": "Title of Page Three",
+      "page_content": "This is the content of PAGE THREE. It's just a paragraph.",
+      "next_page": "comic_page4.html",
+      "previous_page": "comic_page2.html"
+    },
+    {
+      "filename": "comic_page4.html",
+      "page_title": "Title of Page Four",
+      "page_content": "This is the content of PAGE FOUR. It's just a paragraph.",
+      "next_page": "index.html",
+      "previous_page": "comic_page3.html"
+    }
+  ]
+}
