@@ -1,14 +1,17 @@
 import os
 import json
 
-
-data = json.load(open("comic_data.json"))
+data_path = os.path.join("input_dir", "comic_data.json")
+data = json.load(open(data_path))
 
 header = data["header"]
 
 for page in data["pages"]:
-    template = open("comic_template.html")
-    output_file = open(page["filename"], "w")
+    template_path = os.path.join("input_dir", "comic_template.html")
+    template = open(template_path)
+
+    output_path = os.path.join("output_dir", page["filename"])
+    output_file = open(output_path,"w")
 
     for line in template:
         line = line.replace("${header}", header)
