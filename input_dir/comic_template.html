@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
-	<head>${header}
+	<head>${header}</head>
 	<title>${page_title}</title>
-	</head><br>
-<br>
-	<body>${page_content}
-		<p><a href="${next_page}">Next Page</a></p><br>
-<br>
-		<p><a href="${previous_page}">Previous Page</a></p>
-		<form></form>
-    	</body>
+</head>
+<body>
+	<div id="content">
+		${content}
+	</div>
+	${nav}
+</body>
 </html>
