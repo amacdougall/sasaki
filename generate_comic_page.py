@@ -1,5 +1,6 @@
 import os
 import json
+import shutil
 
 def generate_site(data):
     """
@@ -8,6 +9,13 @@ def generate_site(data):
     """
 
     header = data["header"]
+
+    path_exists = os.path.exists("output_dir")
+    
+    if path_exists:
+        shutil.rmtree("output_dir")
+
+    os.mkdir("output_dir")
 
     for page in data["pages"]:
         template_path = os.path.join("input_dir", "comic_template.html")
