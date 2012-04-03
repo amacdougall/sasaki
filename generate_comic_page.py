@@ -2,20 +2,25 @@ import os
 import json
 import shutil
 
+def clear_directory(directory):
+    """
+    Deletes contents of the target directory, but not the directory itself.
+    """
+    if os.path.exists(directory):
+        for filename in os.listdir(directory):
+            path = os.path.join(directory, filename)
+            if os.path.isfile(path):
+                os.remove(path)
+            elif os.path.isdir(path):
+                shutil.rmtree(path)
+
 def generate_site(data):
     """
     Generates the entire site from the supplied data. Data format is exemplified
     by input_dir/comic_data.json.
     """
 
-    header = data["header"]
-
-    path_exists = os.path.exists("output_dir")
-    
-    if path_exists:
-        shutil.rmtree("output_dir")
-
-    os.mkdir("output_dir")
+    clear_directory("output_dir")
 
     for page in data["pages"]:
         template_path = os.path.join("input_dir", "comic_template.html")
@@ -28,7 +33,7 @@ def generate_site(data):
             if "${nav}" in line:
                 content = build_nav(page)
             elif "${" in line:
-                content = replace_tokens(line, page, header)
+                content = replace_tokens(line, page)
             else:
                 content = line
 
@@ -37,11 +42,15 @@ def generate_site(data):
         template.close()
         output_file.close()
 
-def replace_tokens(line, page, header):
+    # copy static files such as stylesheets, javascript...
+    for directory in os.listdir("input_dir/static"):
+        shutil.copytree(os.path.join("input_dir/static", directory),
+                        os.path.join("output_dir", directory))
+
+def replace_tokens(line, page):
     """
     Replaces standard tokens with page content, where found.
     """
-    line = line.replace("${header}", header)
     line = line.replace("${title}", page["title"])
     line = line.replace("${content}", page["content"])
     return line
