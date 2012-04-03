@@ -42,7 +42,12 @@ def generate_site(data):
         template.close()
         output_file.close()
 
-def replace_tokens(line, page, header):
+    # copy static files such as stylesheets, javascript...
+    for directory in os.listdir("input_dir/static"):
+        shutil.copytree(os.path.join("input_dir/static", directory),
+                        os.path.join("output_dir", directory))
+
+def replace_tokens(line, page):
     """
     Replaces standard tokens with page content, where found.
     """
