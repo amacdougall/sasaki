@@ -1,39 +1,37 @@
 {
-  "header": "This is the COMIC PAGE!!!  Okay?!?!?",
-
   "pages": [
     {
       "filename": "index.html",
-      "title": "Title of Index",
-      "content": "This is the content of the INDEX. It's just a paragraph.",
-      "next_page": "comic_page1.html",
-      "previous_page": "index.html",
-			"nav_template": "index_nav_template.html"
+      "page_title": "Title of Index",
+      "content": "Index page content goes here; of course, there won't be just a single line called 'content', but rather you'll want to create many tokens which populate different parts of the page.", "next_page": "comic_page1.html", "previous_page": "index.html",
+      "nav_template": "index_nav_template.html",
+      "next_page": null,
+      "previous_page": "comic_page4.html"
     },
     {
       "filename": "comic_page1.html",
-      "title": "Title of Page One",
+      "page_title": "Title of Page One",
       "content": "This is the content of PAGE ONE. It's just a paragraph.",
       "next_page": "comic_page2.html",
-      "previous_page": "index.html"
+      "previous_page": null
     },
     {
       "filename": "comic_page2.html",
-      "title": "Title of Page Two",
+      "page_title": "Title of Page Two",
       "content": "This is the content of PAGE TWO. It's just a paragraph.",
       "next_page": "comic_page3.html",
-      "previous_page":"comic_page1.html"
+      "previous_page": "comic_page1.html"
     },
     {
       "filename": "comic_page3.html",
-      "title": "Title of Page Three",
+      "page_title": "Title of Page Three",
       "content": "This is the content of PAGE THREE. It's just a paragraph.",
       "next_page": "comic_page4.html",
       "previous_page": "comic_page2.html"
     },
     {
       "filename": "comic_page4.html",
-      "title": "Title of Page Four",
+      "page_title": "Title of Page Four",
       "content": "This is the content of PAGE FOUR. It's just a paragraph.",
       "next_page": "index.html",
       "previous_page": "comic_page3.html"
