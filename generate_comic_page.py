@@ -51,7 +51,7 @@ def replace_tokens(line, page):
     """
     Replaces standard tokens with page content, where found.
     """
-    line = line.replace("${title}", page["title"])
+    line = line.replace("${page_title}", page["page_title"])
     line = line.replace("${content}", page["content"])
     return line
 
@@ -70,6 +70,7 @@ def build_nav(page):
     content_lines = []
 
     for line in nav_template:
+        # TODO: don't display the link at all if there is no content
         line = line.replace("${next_page}", page["next_page"])
         line = line.replace("${previous_page}", page["previous_page"])
         content_lines.append(line)
