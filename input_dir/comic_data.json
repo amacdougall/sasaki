@@ -4,7 +4,7 @@
       "filename": "index.html",
       "page_title": "Index Page Title",
       "image": "comic_images/Panel1.jpg",
-      "nav_template": "index_nav_template.html",
+      "nav_template": "nav_template.html",
       "next_page": null,
       "previous_page": "comic_page4.html"
     },

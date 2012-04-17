@@ -70,17 +70,24 @@ def build_nav(page):
     content_lines = []
 
     for line in nav_template:
-        if page["next_page"]:
-            line = line.replace("${next_page}", page["next_page"])
-        else:
-            line = ""
-        if page["previous_page"]:
-            line = line.replace("${previous_page}", page["previous_page"])
-        else:
-            line = ""
-        content_lines.append(line)
+        if "${next_page}" in line:
+            if page["next_page"] is not None:
+                line = line.replace("${next_page}", page["next_page"])
+            else:
+                line = ""
+
+        if "${previous_page}" in line:
+            if page["previous_page"] is not None:
+                line = line.replace("${previous_page}", page["previous_page"])
+            else:
+                line = ""
+
+    content_lines.append(line)
 
     nav_template.close()
+
+    print "".join(content_lines)
+
     return "".join(content_lines)
 
 # generate the site
