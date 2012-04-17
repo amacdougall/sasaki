@@ -2,8 +2,8 @@
   "pages": [
     {
       "filename": "index.html",
-      "page_title": "Title of Index",
-      "content": "Index page content goes here; of course, there won't be just a single line called 'content', but rather you'll want to create many tokens which populate different parts of the page.", "next_page": "comic_page1.html", "previous_page": "index.html",
+      "page_title": "Index Page Title",
+      "image": "comic_images/Panel1.jpg",
       "nav_template": "index_nav_template.html",
       "next_page": null,
       "previous_page": "comic_page4.html"
@@ -11,28 +11,28 @@
     {
       "filename": "comic_page1.html",
       "page_title": "Title of Page One",
-      "content": "This is the content of PAGE ONE. It's just a paragraph.",
+      "image": "comic_images/Panel2.jpg",
       "next_page": "comic_page2.html",
       "previous_page": null
     },
     {
       "filename": "comic_page2.html",
       "page_title": "Title of Page Two",
-      "content": "This is the content of PAGE TWO. It's just a paragraph.",
+      "image": "comic_images/Panel3.jpg",
       "next_page": "comic_page3.html",
       "previous_page": "comic_page1.html"
     },
     {
       "filename": "comic_page3.html",
       "page_title": "Title of Page Three",
-      "content": "This is the content of PAGE THREE. It's just a paragraph.",
+      "image": "comic_images/Panel4.jpg",
       "next_page": "comic_page4.html",
       "previous_page": "comic_page2.html"
     },
     {
       "filename": "comic_page4.html",
       "page_title": "Title of Page Four",
-      "content": "This is the content of PAGE FOUR. It's just a paragraph.",
+      "image": "comic_images/Panel5.jpg",
       "next_page": "index.html",
       "previous_page": "comic_page3.html"
     }
