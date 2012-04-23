@@ -1,40 +1,40 @@
 {
   "pages": [
     {
-      "filename": "index.html",
-      "page_title": "Index Page Title",
-      "image": "comic_images/Panel1.jpg",
-      "nav_template": "nav_template.html",
-      "next_page": null,
-      "previous_page": "comic_page4.html"
-    },
-    {
       "filename": "comic_page1.html",
       "page_title": "Title of Page One",
-      "image": "comic_images/Panel2.jpg",
+      "image": "comic_images/Panel_02.jpg",
       "next_page": "comic_page2.html",
       "previous_page": null
     },
     {
       "filename": "comic_page2.html",
       "page_title": "Title of Page Two",
-      "image": "comic_images/Panel3.jpg",
+      "image": "comic_images/Panel_03.jpg",
       "next_page": "comic_page3.html",
       "previous_page": "comic_page1.html"
     },
     {
       "filename": "comic_page3.html",
       "page_title": "Title of Page Three",
-      "image": "comic_images/Panel4.jpg",
+      "image": "comic_images/Panel_04.jpg",
       "next_page": "comic_page4.html",
       "previous_page": "comic_page2.html"
     },
     {
       "filename": "comic_page4.html",
       "page_title": "Title of Page Four",
-      "image": "comic_images/Panel5.jpg",
+      "image": "comic_images/Panel_05.jpg",
       "next_page": "index.html",
       "previous_page": "comic_page3.html"
+    },
+    {
+      "filename": "index.html",
+      "page_title": "Index Page Title",
+      "image": "comic_images/Panel_01.jpg",
+      "nav_template": "nav_template.html",
+      "next_page": null,
+      "previous_page": "comic_page4.html"
     }
   ]
 }

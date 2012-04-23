@@ -38,7 +38,7 @@ def generate_site(data):
                 content = line
 
             output_file.write(content)
-
+ 
         template.close()
         output_file.close()
 
@@ -82,7 +82,7 @@ def build_nav(page):
             else:
                 line = ""
 
-    content_lines.append(line)
+        content_lines.append(line)
 
     nav_template.close()
 
