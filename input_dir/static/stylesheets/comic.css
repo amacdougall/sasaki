@@ -2,12 +2,14 @@
 	margin: 5px 2px 2px 5px;
 	background-color: #CCFFCC;
 }
+
 #head {
 	text-align: center;
 	text-transform: capitalize;
 	color: yellow;
 	font-family: Arial, "MS Trebuchet", sans-serif;
 }
+
 #container {
 	margin-left: auto;
 	margin-right: auto;
@@ -16,54 +18,74 @@
 	background-color: #ABBAC6;
 	color: red;	
 }
+
 #leftside {
 	float: left;
 	width: 125px;
 	height:540px;
 	background-color: red;
 }
+
 #rightside {
 	float: right;
 	width: 125px;
 	height: 540px;
 	background-color: red;
 }
+
 #main {
-	float: left;
-	width: 525px;
+	text-align: center;
+	width: 88.5%;
 	height: 510px;
 	font-family: Verdana, Arial, sans-serif;
 	color:#008000;
 	background: white;
 	padding: 15px;
 }
-#header {
-	
+
+#image {
+	text-align: center;
+	width: 45%;
+	padding: 0px;
+}
+
+#header {	
 	margin-left: auto;
 	margin-right: auto;
 	width: 820px;
 	height: 140px; 
 }
+
 #content {
 	text-align: right;
 	text-transform: uppercase;
 	color: blue;
 	font-family: Arial, "MS Trebuchet", sans-serif;
 }
-#p {
+
+p {
 	color:#2E2E2E;
 	font-family: Verdana;
 	padding: 1px 2px 1px 5px;
 }
+
 #nav {
 	text-align: right;
 	text-transform: capitalize;
 	color: black;
 	font-family: Verdana, "MS Trebuchet", sans-serif;
 }
+
+#comic-nav div.previous {
+	float: left;
+}
+
+#comic-nav div.next {
+	float: right;
+}
+
 #h4 {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	padding: 5px 5px 5px 5px;
 	color: #663300;
-
 }
