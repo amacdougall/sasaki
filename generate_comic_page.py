@@ -52,6 +52,7 @@ def replace_tokens(line, page):
     Replaces standard tokens with page content, where found.
     """
     line = line.replace("${page_title}", page["page_title"])
+    line = line.replace("${comic_title}", data["comic_title"])
     line = line.replace("${image}", page["image"])
     return line
 
@@ -86,11 +87,10 @@ def build_nav(page):
 
     nav_template.close()
 
-    print "".join(content_lines)
-
     return "".join(content_lines)
 
 # generate the site
 data_path = os.path.join("input_dir", "comic_data.json")
 data = json.load(open(data_path))
 generate_site(data)
+print "Output complete. Generated %d output pages." % len(data["pages"])

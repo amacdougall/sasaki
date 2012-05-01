@@ -1,4 +1,5 @@
 {
+  "comic_title": "Title of Comic",
   "pages": [
     {
       "filename": "comic_page1.html",
