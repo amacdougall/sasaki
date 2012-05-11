@@ -1,6 +1,7 @@
 import os
 import json
 import shutil
+from datetime import date
 
 def clear_directory(directory):
     """
@@ -47,6 +48,13 @@ def generate_site(data):
         shutil.copytree(os.path.join("input_dir/static", directory),
                         os.path.join("output_dir", directory))
 
+def get_date():
+    """
+    Returns a string that represents today's date
+    """
+    today = date.today()
+    return today.strftime("%A %B %d, %Y")
+
 def replace_tokens(line, page):
     """
     Replaces standard tokens with page content, where found.
@@ -54,6 +62,7 @@ def replace_tokens(line, page):
     line = line.replace("${page_title}", page["page_title"])
     line = line.replace("${comic_title}", data["comic_title"])
     line = line.replace("${image}", page["image"])
+    line = line.replace("${date}", get_date())
     return line
 
 def build_nav(page):
