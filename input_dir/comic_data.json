@@ -1,41 +1,83 @@
-{
+{ 
   "comic_title": "OH, SHIT!!!",
   "pages": [
     {
       "filename": "comic_page1.html",
       "page_title": "Title of Page One",
-      "image": "comic_images/Panel_02.jpg",
+      "image": "comic_images/page1.jpg",
       "next_page": "comic_page2.html",
-      "previous_page": null
+      "previous_page": "index.html"
     },
     {
       "filename": "comic_page2.html",
       "page_title": "Title of Page Two",
-      "image": "comic_images/Panel_03.jpg",
+      "image": "comic_images/page2.jpg",
       "next_page": "comic_page3.html",
       "previous_page": "comic_page1.html"
     },
     {
       "filename": "comic_page3.html",
       "page_title": "Title of Page Three",
-      "image": "comic_images/Panel_04.jpg",
+      "image": "comic_images/page3.jpg",
       "next_page": "comic_page4.html",
       "previous_page": "comic_page2.html"
     },
     {
       "filename": "comic_page4.html",
       "page_title": "Title of Page Four",
-      "image": "comic_images/Panel_05.jpg",
+      "image": "comic_images/page4.jpg",
       "next_page": "index.html",
       "previous_page": "comic_page3.html"
+    },
+    {
+      "filename": "comic_page5.html",
+      "page_title": "Title of Page Five",
+      "image": "comic_images/page5.jpg",
+      "next_page": "comic_page6.html",
+      "previous_page": "comic_page4.html"
+    },
+    {
+      "filename": "comic_page6.html",
+      "page_title": "Title of Page Six",
+      "image": "comic_images/page6",
+      "next_page": "comic_page7.html",
+      "previous_page": "comic_page5.html"
+    },
+    {
+      "filename": "comic_page7.html",
+      "page_title": "Title of Page Seven",
+      "image": "comic_images/page7.jpg",
+      "next_page": "comic_page8.html",
+      "previous_page": "comic_page6.html"
+    },
+    {
+      "filename": "comic_page8.html",
+      "page_title": "Title of Page Eight",
+      "image": "comic_images/page8.jpg",
+      "next_page": "comic_page9.html",
+      "previous_page": "comic_page7.html"
+    },
+    {
+      "filename": "comic_page9.html",
+      "page_title": "Title of Page Four",
+      "image": "comic_images/Panel_05.jpg",
+      "next_page": "page10.html",
+      "previous_page": "comic_page8.html"
+    },
+    {
+      "filename": "comic_page10.html",
+      "page_title": "Title of Page Four",
+      "image": "comic_images/page11.jpg",
+      "next_page": "index.html",
+      "previous_page": "comic_page9.html"
     },
     {
       "filename": "index.html",
       "page_title": "Index Page Title",
       "image": "comic_images/Panel_01.jpg",
       "nav_template": "nav_template.html",
-      "next_page": null,
-      "previous_page": "comic_page4.html"
+      "next_page": "comic_page1.html",
+      "previous_page": null
     }
   ]
 }
