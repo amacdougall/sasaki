@@ -4,70 +4,70 @@
     {
       "filename": "comic_page1.html",
       "page_title": "Title of Page One",
-      "image": "comic_images/page1.jpg",
+      "image": "comic_images/issue_000/page_001.jpg",
       "next_page": "comic_page2.html",
       "previous_page": "index.html"
     },
     {
       "filename": "comic_page2.html",
       "page_title": "Title of Page Two",
-      "image": "comic_images/page2.jpg",
+      "image": "comic_images/issue_000/page_002.jpg",
       "next_page": "comic_page3.html",
       "previous_page": "comic_page1.html"
     },
     {
       "filename": "comic_page3.html",
       "page_title": "Title of Page Three",
-      "image": "comic_images/page3.jpg",
+      "image": "comic_images/issue_000/page_003.jpg",
       "next_page": "comic_page4.html",
       "previous_page": "comic_page2.html"
     },
     {
       "filename": "comic_page4.html",
       "page_title": "Title of Page Four",
-      "image": "comic_images/page4.jpg",
-      "next_page": "index.html",
+      "image": "comic_images/issue_000/page_004.jpg",
+      "next_page": "comic_page5.html",
       "previous_page": "comic_page3.html"
     },
     {
       "filename": "comic_page5.html",
       "page_title": "Title of Page Five",
-      "image": "comic_images/page5.jpg",
+      "image": "comic_images/issue_000/page_005.jpg",
       "next_page": "comic_page6.html",
       "previous_page": "comic_page4.html"
     },
     {
       "filename": "comic_page6.html",
       "page_title": "Title of Page Six",
-      "image": "comic_images/page6",
+      "image": "comic_images/issue_000/page_006.jpg",
       "next_page": "comic_page7.html",
       "previous_page": "comic_page5.html"
     },
     {
       "filename": "comic_page7.html",
       "page_title": "Title of Page Seven",
-      "image": "comic_images/page7.jpg",
+      "image": "comic_images/issue_000/page_007.jpg",
       "next_page": "comic_page8.html",
       "previous_page": "comic_page6.html"
     },
     {
       "filename": "comic_page8.html",
       "page_title": "Title of Page Eight",
-      "image": "comic_images/page8.jpg",
+      "image": "comic_images/issue_000/page_008.jpg",
       "next_page": "comic_page9.html",
       "previous_page": "comic_page7.html"
     },
     {
       "filename": "comic_page9.html",
-      "page_title": "Title of Page Four",
-      "image": "comic_images/Panel_05.jpg",
-      "next_page": "page10.html",
+      "page_title": "Title of Page Nine",
+      "image": "comic_images/issue_000/page_009.jpg",
+      "next_page": "comic_page10.html",
       "previous_page": "comic_page8.html"
     },
     {
       "filename": "comic_page10.html",
-      "page_title": "Title of Page Four",
-      "image": "comic_images/page11.jpg",
+      "page_title": "Title of Page Ten",
+      "image": "comic_images/issue_000/page_010.jpg",
       "next_page": "index.html",
       "previous_page": "comic_page9.html"
     },
