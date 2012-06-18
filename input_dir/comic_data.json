@@ -2,6 +2,41 @@
   "comic_title": "OH, SHIT!!!",
   "pages": [
     {
+      "filename": "faq.html",
+      "page_title": "Title of FAQ",
+      "image": "comic_images/under_construction.jpg",
+      "next_page": "index.html",
+      "previous_page": "index.html"
+    },
+    {
+      "filename": "blog.html",
+      "page_title": "Title of Blog",
+      "image": "comic_images/under_construction.jpg ",
+      "next_page": "index.html",
+      "previous_page": "index.html"
+    },
+    {
+      "filename": "sketches.html",
+      "page_title": "Title of Sketches",
+      "image": "comic_images/under_construction.jpg ",
+      "next_page": "index.html",
+      "previous_page": "index.html"
+    },
+    {
+      "filename": "video.html",
+      "page_title": "Title of Video",
+      "image": "comic_images/under_construction.jpg ",
+      "next_page": "index.html",
+      "previous_page": "index.html"
+    },
+    {
+      "filename": "bio.html",
+      "page_title": "Title of Bio",
+      "image": "comic_images/under_construction.jpg",
+      "next_page": "index.html",
+      "previous_page": "index.html"
+    },
+    {
       "filename": "comic_page1.html",
       "page_title": "Title of Page One",
       "image": "comic_images/page_001.jpg",

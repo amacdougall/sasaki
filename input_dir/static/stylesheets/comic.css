@@ -33,7 +33,7 @@ div {
 #header {
 	height:150px;
 	width: 80%;
-	background-image: url("../comic_images/Konami-code.jpg");
+	background-image: url("../static/comic_images/Konami-code.jpg");
 	background-color: black;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
