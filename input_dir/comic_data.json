@@ -1,118 +1,82 @@
 { 
-  "comic_title": "OH, SHIT!!!",
+  "comic_title": "Violet Protocol",
   "pages": [
     {
-      "filename": "faq.html",
-      "page_title": "Title of FAQ",
-      "image": "comic_images/under_construction.jpg",
-      "next_page": "index.html",
-      "previous_page": "index.html"
-    },
-    {
-      "filename": "blog.html",
-      "page_title": "Title of Blog",
-      "image": "comic_images/under_construction.jpg ",
-      "next_page": "index.html",
-      "previous_page": "index.html"
-    },
-    {
-      "filename": "sketches.html",
-      "page_title": "Title of Sketches",
-      "image": "comic_images/under_construction.jpg ",
-      "next_page": "index.html",
-      "previous_page": "index.html"
-    },
-    {
-      "filename": "video.html",
-      "page_title": "Title of Video",
-      "image": "comic_images/under_construction.jpg ",
-      "next_page": "index.html",
-      "previous_page": "index.html"
-    },
-    {
-      "filename": "bio.html",
-      "page_title": "Title of Bio",
-      "image": "comic_images/under_construction.jpg",
-      "next_page": "index.html",
-      "previous_page": "index.html"
-    },
-    {
-      "filename": "comic_page1.html",
+      "filename": "issue_000/page_001.html",
       "page_title": "Title of Page One",
-      "image": "comic_images/page_001.jpg",
-      "next_page": "comic_page2.html",
-      "previous_page": "index.html"
+      "image": "issue_000/images/page_001.jpg",
+      "previous_page": "index.html",
+      "next_page": "issue_000/page_002.html"
     },
     {
-      "filename": "comic_page2.html",
+      "filename": "issue_000/page_002.html",
       "page_title": "Title of Page Two",
-      "image": "comic_images/page_002.jpg",
-      "next_page": "comic_page3.html",
-      "previous_page": "comic_page1.html"
+      "image": "issue_000/images/page_002.jpg",
+      "previous_page": "issue_000/page_001.html",
+      "next_page": "issue_000/page_003.html"
     },
     {
-      "filename": "comic_page3.html",
+      "filename": "issue_000/page_003.html",
       "page_title": "Title of Page Three",
-      "image": "comic_images/page_003.jpg",
-      "next_page": "comic_page4.html",
-      "previous_page": "comic_page2.html"
+      "image": "issue_000/images/page_003.jpg",
+      "previous_page": "issue_000/page_002.html",
+      "next_page": "issue_000/page_004.html"
     },
     {
-      "filename": "comic_page4.html",
+      "filename": "issue_000/page_004.html",
       "page_title": "Title of Page Four",
-      "image": "comic_images/page_004.jpg",
-      "next_page": "comic_page5.html",
-      "previous_page": "comic_page3.html"
+      "image": "issue_000/images/page_004.jpg",
+      "previous_page": "issue_000/page_003.html",
+      "next_page": "issue_000/page_005.html"
     },
     {
-      "filename": "comic_page5.html",
+      "filename": "issue_000/page_005.html",
       "page_title": "Title of Page Five",
-      "image": "comic_images/page_005.jpg",
-      "next_page": "comic_page6.html",
-      "previous_page": "comic_page4.html"
+      "image": "issue_000/images/page_005.jpg",
+      "previous_page": "issue_000/page_004.html",
+      "next_page": "issue_000/page_006.html"
     },
     {
-      "filename": "comic_page6.html",
+      "filename": "issue_000/page_006.html",
       "page_title": "Title of Page Six",
-      "image": "comic_images/page_006.jpg",
-      "next_page": "comic_page7.html",
-      "previous_page": "comic_page5.html"
+      "image": "issue_000/images/page_006.jpg",
+      "previous_page": "issue_000/page_005.html",
+      "next_page": "issue_000/page_007.html"
     },
     {
-      "filename": "comic_page7.html",
+      "filename": "issue_000/page_007.html",
       "page_title": "Title of Page Seven",
-      "image": "comic_images/page_007.jpg",
-      "next_page": "comic_page8.html",
-      "previous_page": "comic_page6.html"
+      "image": "issue_000/images/page_007.jpg",
+      "previous_page": "issue_000/page_006.html",
+      "next_page": "issue_000/page_008.html"
     },
     {
-      "filename": "comic_page8.html",
+      "filename": "issue_000/page_008.html",
       "page_title": "Title of Page Eight",
-      "image": "comic_images/page_008.jpg",
-      "next_page": "comic_page9.html",
-      "previous_page": "comic_page7.html"
+      "image": "issue_000/images/page_008.jpg",
+      "previous_page": "issue_000/page_007.html",
+      "next_page": "issue_000/page_009.html"
     },
     {
-      "filename": "comic_page9.html",
+      "filename": "issue_000/page_009.html",
       "page_title": "Title of Page Nine",
-      "image": "comic_images/page_009.jpg",
-      "next_page": "comic_page10.html",
-      "previous_page": "comic_page8.html"
+      "image": "issue_000/images/page_009.jpg",
+      "previous_page": "issue_000/page_008.html",
+      "next_page": "issue_000/page_010.html"
     },
     {
-      "filename": "comic_page10.html",
+      "filename": "issue_000/page_0010.html",
       "page_title": "Title of Page Ten",
-      "image": "comic_images/page_010.jpg",
-      "next_page": "index.html",
-      "previous_page": "comic_page9.html"
+      "image": "issue_000/images/page_010.jpg",
+      "previous_page": "issue_000/page_009.html",
+      "next_page": "index.html"
     },
     {
       "filename": "index.html",
       "page_title": "Index Page Title",
-      "image": "comic_images/Panel_01.jpg",
-      "nav_template": "nav_template.html",
-      "next_page": "comic_page1.html",
-      "previous_page": null
+      "image": "issue_000/images/page_011.jpg",
+      "next_page": null,
+      "previous_page": "issue_000/page_011.html"
     }
   ]
 }
