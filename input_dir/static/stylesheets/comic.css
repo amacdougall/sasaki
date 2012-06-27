@@ -1,55 +1,55 @@
 body {
 	margin: 0;
+	font-family: Helvetica, Verdana, "Tahoma MS", sans-serif;
 }
 
 div {
 	position: relative;
 }
 
-#navbar ul { 
-        margin: 0; 
-        padding: 5px; 
-        list-style-type: none; 
-        text-align: center; 
-        background-color: #CCCCCC; 
-        } 
- 
-#navbar ul li {  
-        display: inline; 
-        } 
- 
-#navbar ul li a { 
-        text-decoration: none; 
-        padding: .2em 1em; 
-        color: gray; 
-        background-color: #000; 
-        } 
- 
-#navbar ul li a:hover { 
-        color: gray; 
-        background-color: #fff; 
-	    }
+#navbar {
+	background-color: black;
+	height: 48px;
+}
+
+#navbar ul {
+	margin: 0;
+	padding: 5px;
+	list-style-type: none;
+}
+
+#navbar ul li {
+	display: inline;
+}
+
+#navbar ul li a {
+	text-decoration: none;
+	padding: .2em 1em;
+	color: gray;
+}
+
+#navbar ul li a:hover {
+	color: black;
+	background-color: #fff;
+}
 
 #header {
-	height:150px;
-	width: 80%;
-	background-image: url("../static/comic_images/Konami-code.jpg");
+	height: 90px;
+	width: 100%;
 	background-color: black;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 #header div.date {
 	float: right;
-	margin-top:40px;
+	margin-top: 40px;
 	color: white;
+	margin-right: 20px;
 }
 
 #header h1 {
 	color: white;
-	float:left;
+	float: left;
+	margin-left: 20px;
 }
 
 #container {
@@ -58,18 +58,14 @@ div {
 }
 
 #content {
-	padding:  15px;
-
+	padding: 15px;
 }
 
 #main {
-	border-top: thin black solid;
 	padding-top: 10px;
 	margin-top: 20px;
-	border-bottom: thin black solid;
 	padding-bottom: 10px;
 	margin-bottom: 20px;
-
 }
 
 div.image {
