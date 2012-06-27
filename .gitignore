@@ -1,3 +1,4 @@
 *.sw[a-p]
 *~
 output_dir/*
+raw_comic_images/
