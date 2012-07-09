@@ -23,6 +23,9 @@ def generate_site(data):
 
     clear_directory("output_dir")
 
+    first_page = data["pages"][0]
+    last_page = data["pages"][-1]
+
     for page in data["pages"]:
         template_path = os.path.join("input_dir", "comic_template.html")
         template = open(template_path)
@@ -36,7 +39,7 @@ def generate_site(data):
 
         for line in template:
             if "${nav}" in line:
-                content = build_nav(page)
+                content = build_nav(page, first_page, last_page)
             elif "${" in line:
                 content = replace_tokens(line, page)
             else:
@@ -69,9 +72,10 @@ def replace_tokens(line, page):
     line = line.replace("${date}", get_date())
     return line
 
-def build_nav(page):
+def build_nav(page, first_page, last_page):
     """
-    Generates a navigation block for the supplied page.
+    Generates a navigation block for the supplied page, along with the first and
+    last pages of the comic.
     """
     if page.has_key("nav_template"):
         nav_template_filename = page["nav_template"]
@@ -95,6 +99,12 @@ def build_nav(page):
                 line = line.replace("${previous_page}", page["previous_page"])
             else:
                 line = ""
+
+        if "${first_page}" in line:
+            line = line.replace("${first_page}", first_page["filename"])
+
+        if "${last_page}" in line:
+            line = line.replace("${last_page}", last_page["filename"])
 
         content_lines.append(line)
 

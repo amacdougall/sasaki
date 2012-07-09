@@ -75,16 +75,24 @@ div.image {
 
 #comic-nav {
 	height: 2em;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #comic-nav a {
 	text-decoration: none; /* no underline */
 }
 
-#comic-nav div.previous {
-	float: left;
+#comic-nav div {
+	display: inline-block;
+  width: 24%;
+}
+
+#comic-nav div.first, #comic-nav div.right {
+  text-align: center;
 }
 
 #comic-nav div.next {
-	float: right;
+  text-align: right;
 }
