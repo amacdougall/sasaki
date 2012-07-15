@@ -100,11 +100,9 @@ def build_nav(page, first_page, last_page):
             else:
                 line = ""
 
-        if "${first_page}" in line:
-            line = line.replace("${first_page}", first_page["filename"])
-
-        if "${last_page}" in line:
-            line = line.replace("${last_page}", last_page["filename"])
+        line = line.replace("${first_page}", first_page["filename"])
+        line = line.replace("${last_page}", last_page["filename"])
+        line = line.replace("${page_title}", page["page_title"])
 
         content_lines.append(line)
 

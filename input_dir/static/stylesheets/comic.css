@@ -80,19 +80,26 @@ div.image {
   margin-right: auto;
 }
 
+#comic-nav table {
+	width: 100%;
+}
+
 #comic-nav a {
 	text-decoration: none; /* no underline */
 }
 
-#comic-nav div {
-	display: inline-block;
-  width: 24%;
+#comic-nav td {
+	text-align: center;
 }
 
-#comic-nav div.first, #comic-nav div.right {
-  text-align: center;
+#comic-nav td.previous {
+	text-align: left;
 }
 
-#comic-nav div.next {
+#comic-nav td.next {
   text-align: right;
+}
+
+#comic-nav td.title {
+	font-weight: bold;
 }
