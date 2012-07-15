@@ -92,13 +92,13 @@ def build_nav(page, first_page, last_page):
             if page["next_page"] is not None:
                 line = line.replace("${next_page}", page["next_page"])
             else:
-                line = ""
+                line = line.replace("${next_page}", "")
 
         if "${previous_page}" in line:
             if page["previous_page"] is not None:
                 line = line.replace("${previous_page}", page["previous_page"])
             else:
-                line = ""
+                line = line.replace("${previous_page}", "")
 
         line = line.replace("${first_page}", first_page["filename"])
         line = line.replace("${last_page}", last_page["filename"])

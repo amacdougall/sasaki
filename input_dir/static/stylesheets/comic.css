@@ -90,6 +90,7 @@ div.image {
 
 #comic-nav td {
 	text-align: center;
+	width: 20%;
 }
 
 #comic-nav td.previous {
