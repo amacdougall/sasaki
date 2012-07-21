@@ -42,7 +42,7 @@ else:
         output_dir = groups["-o"][0]
 
     # build command
-    command = "convert {0} -resize {1}x {2}"
+    command = "convert {0} -resize {1}x -quality 80 {2}"
 
     # verify directories, creating output dir if needed
     if not os.path.exists(input_dir):
@@ -53,7 +53,7 @@ else:
         message = "The supplied input directory was not a directory: {0}"
         print message.format(input_dir)
         sys.exit()
-    
+
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     elif not os.path.isdir(output_dir):
