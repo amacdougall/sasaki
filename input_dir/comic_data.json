@@ -55,13 +55,20 @@
       "page_title": "Page Eight",
       "image": "images/issue_000/page_008.jpg",
       "previous_page": "page_007.html",
+      "next_page": "page_009.html"
+    },
+    {
+      "filename": "page_009.html",
+      "page_title": "Page Nine",
+      "image": "images/issue_000/page_009.jpg",
+      "previous_page": "page_008.html",
       "next_page": "index.html"
     },
     {
       "filename": "index.html",
-      "page_title": "Page Nine",
-      "image": "images/issue_000/page_009.jpg",
-      "previous_page": "page_008.html",
+      "page_title": "Page Ten",
+      "image": "images/issue_000/page_010.jpg",
+      "previous_page": "page_009.html",
       "next_page": null
     }
   ]
