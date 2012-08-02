@@ -1,0 +1,37 @@
+{% extends "layout.jinja2" %}
+{% block content %}
+  <div>
+		{# consider using include instead #}
+		<div id="comic-nav">
+			<table>
+				<tr>
+					<td class="previous"><a href="{{ page.previous_page or first_page }}" rel="prev">Previous Page</a></td>
+					<td class="first"><a href="{{ first_page }}">First Page</a></td>
+					<td class="title">{{ page.title }}</td>
+					<td class="last"><a href="{{ last_page }}">Last Page</a></td>
+					<td class="next"><a href="{{ page.next_page or last_page }}" rel="next">Next Page</a></td>
+				</tr>
+			</table>
+		</div>
+  </div>
+
+  <div id="main">
+    <div class="image">
+      <img src="{{ page.image }}">
+    </div>
+  </div>
+
+  <div>
+		<div id="comic-nav">
+			<table>
+				<tr>
+					<td class="previous"><a href="{{ page.previous_page or first_page }}" rel="prev">Previous Page</a></td>
+					<td class="first"><a href="{{ first_page }}">First Page</a></td>
+					<td class="title">{{ page.title }}</td>
+					<td class="last"><a href="{{ last_page }}">Last Page</a></td>
+					<td class="next"><a href="{{ page.next_page or last_page }}" rel="next">Next Page</a></td>
+				</tr>
+			</table>
+		</div>
+  </div>
+{% endblock %}
