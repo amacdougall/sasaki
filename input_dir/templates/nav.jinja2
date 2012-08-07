@@ -1,3 +1,11 @@
-{% extends "page.jinja2" %}
-{% block nav %}
-{% endblock %}
+<div class="comic-nav">
+	<table>
+		<tr>
+			<td class="previous"><a href="{{ page.previous_page or first_page }}" rel="prev">Previous Page</a></td>
+			<td class="first"><a href="{{ first_page }}">First Page</a></td>
+			<td class="title">{{ page.title }}</td>
+			<td class="last"><a href="{{ last_page }}">Last Page</a></td>
+			<td class="next"><a href="{{ page.next_page or last_page }}" rel="next">Next Page</a></td>
+		</tr>
+	</table>
+</div>

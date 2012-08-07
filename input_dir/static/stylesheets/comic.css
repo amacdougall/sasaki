@@ -73,34 +73,34 @@ div.image {
 	padding: 0px;
 }
 
-#comic-nav {
+div.comic-nav {
 	height: 2em;
   width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#comic-nav table {
+div.comic-nav table {
 	width: 100%;
 }
 
-#comic-nav a {
+div.comic-nav a {
 	text-decoration: none; /* no underline */
 }
 
-#comic-nav td {
+div.comic-nav td {
 	text-align: center;
 	width: 20%;
 }
 
-#comic-nav td.previous {
+div.comic-nav td.previous {
 	text-align: left;
 }
 
-#comic-nav td.next {
+div.comic-nav td.next {
   text-align: right;
 }
 
-#comic-nav td.title {
+div.comic-nav td.title {
 	font-weight: bold;
 }

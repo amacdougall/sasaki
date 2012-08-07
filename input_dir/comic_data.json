@@ -3,86 +3,100 @@
   "pages": [
     {
       "filename": "page_001.html",
-      "page_title": "Page One",
+      "title": "Page One",
       "image": "images/issue_000/page_001.jpg",
       "previous_page": null,
       "next_page": "page_002.html"
     },
     {
       "filename": "page_002.html",
-      "page_title": "Page Two",
+      "title": "Page Two",
       "image": "images/issue_000/page_002.jpg",
       "previous_page": "page_001.html",
       "next_page": "page_003.html"
     },
     {
       "filename": "page_003.html",
-      "page_title": "Page Three",
+      "title": "Page Three",
       "image": "images/issue_000/page_003.jpg",
       "previous_page": "page_002.html",
       "next_page": "page_004.html"
     },
     {
       "filename": "page_004.html",
-      "page_title": "Page Four",
+      "title": "Page Four",
       "image": "images/issue_000/page_004.jpg",
       "previous_page": "page_003.html",
       "next_page": "page_005.html"
     },
     {
       "filename": "page_005.html",
-      "page_title": "Page Five",
+      "title": "Page Five",
       "image": "images/issue_000/page_005.jpg",
       "previous_page": "page_004.html",
       "next_page": "page_006.html"
     },
     {
       "filename": "page_006.html",
-      "page_title": "Page Six",
+      "title": "Page Six",
       "image": "images/issue_000/page_006.jpg",
       "previous_page": "page_005.html",
       "next_page": "page_007.html"
     },
     {
       "filename": "page_007.html",
-      "page_title": "Page Seven",
+      "title": "Page Seven",
       "image": "images/issue_000/page_007.jpg",
       "previous_page": "page_006.html",
       "next_page": "page_008.html"
     },
     {
       "filename": "page_008.html",
-      "page_title": "Page Eight",
+      "title": "Page Eight",
       "image": "images/issue_000/page_008.jpg",
       "previous_page": "page_007.html",
       "next_page": "page_009.html"
     },
     {
       "filename": "page_009.html",
-      "page_title": "Page Nine",
+      "title": "Page Nine",
       "image": "images/issue_000/page_009.jpg",
       "previous_page": "page_008.html",
       "next_page": "page_010.html"
     },
     {
       "filename": "page_010.html",
-      "page_title": "Page Ten",
+      "title": "Page Ten",
       "image": "images/issue_000/page_010.jpg",
       "previous_page": "page_009.html",
       "next_page": "page_011.html"
     },
     {
       "filename": "page_011.html",
-      "page_title": "Page Eleven",
+      "title": "Page Eleven",
       "image": "images/issue_000/page_011.jpg",
       "previous_page": "page_010.html",
+      "next_page": "page_012.html"
+    },
+    {
+      "filename": "page_012.html",
+      "title": "Page Twelve",
+      "image": "images/issue_000/page_012.jpg",
+      "previous_page": "page_011.html",
+      "next_page": "page_013.html"
+    },
+    {
+      "filename": "page_013.html",
+      "title": "Page Thirteen",
+      "image": "images/issue_000/page_013.jpg",
+      "previous_page": "page_012.html",
       "next_page": "index.html"
     },
     {
       "filename": "index.html",
-      "page_title": "Page Twelve",
-      "image": "images/issue_000/page_012.jpg",
-      "previous_page": "page_011.html",
+      "title": "Page Fourteen",
+      "image": "images/issue_000/page_014.jpg",
+      "previous_page": "page_013.html",
       "next_page": null
     }
   ]
